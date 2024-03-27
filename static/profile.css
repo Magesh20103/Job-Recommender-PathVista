@@ -1,0 +1,59 @@
+.fix1{
+  background-color:#b0dde4;
+}
+.d2 {
+  background-color: #66fcf1;
+  margin-top: 3vh;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  height: auto;
+  margin-left: 9vh;
+}
+.q1{
+    overflow: hidden;
+    margin-top: 30vh;
+  }
+  .card {
+      
+      width: 400px;
+      height: 485px;
+      background: whitesmoke;
+      display: none; 
+      position: relative;
+      overflow: hidden;
+      border-radius: 20px;
+      justify-content: end;
+      padding: 20px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    }
+    #showMoreBtn {
+      display: none; /* Initially hide the "Show More" button */
+    }
+    .card table {
+      z-index: 1;
+      color: black;
+      
+    }
+    th,td{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      height: 62px;
+      font-size: 15px;
+      text-align: left;
+    }
+  th {
+    width: 120px;
+    padding-right: 15px;
+  }
+  td {
+    padding-left: 5px;
+    width: 250px;
+  } 
+  .c1 {
+      border-radius: 25px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 30px -3px, rgba(0, 0, 0, 0.05) 0px 40px 60px -2px;
+    }
+  
+  .r1 {
+    gap: 25px;
+    justify-content: center;
+  }

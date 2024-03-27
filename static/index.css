@@ -1,0 +1,63 @@
+.d1 {
+    background-color: whitesmoke;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins';
+    height: auto;
+    margin: 25vh;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 30px 180px;
+}
+.d2{
+  padding: 15px;
+}
+.row {
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+.b1{
+    border-radius: 18px;
+}
+button {
+  padding: 15px 25px;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  border: 2px solid black;
+  background: #ffffff;
+  position: relative;
+  font-weight: 500;
+  font-size: 29px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 20px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+ }
+ 
+ button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ button:hover {
+  color: #e8e8e8;
+ }
+ 
+ button:hover::before {
+  width: 100%;
+ }
+  
+  
